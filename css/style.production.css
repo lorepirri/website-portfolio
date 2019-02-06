@@ -179,7 +179,7 @@ button  {
     font-family: inherit;
     /* styles the button */
     background-color: #2f796e;
-    color: #fff !important;
+    color: #fff;
     text-decoration: none;
     /*adds spacing to the button; */
     padding: 10px;
