@@ -219,6 +219,10 @@ button:hover, button:focus, .button:hover, .button:focus {
     opacity: 0.8;
 }
 
+.button:visited {
+    color: #fff;
+}
+
 .button__secondary {
     background-color: #e0b354;
     color: #2b2b2b;
