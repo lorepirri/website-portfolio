@@ -190,7 +190,7 @@ button, .button  {
     /* takes the font from the outer container */
     font-family: inherit;
     /* styles the button */
-    background-color: var(--primary-color);
+    background-color: var(--primary-color) !important;
     color: var(--button-color);
     text-decoration: none;
     /*adds spacing to the button; */
