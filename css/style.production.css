@@ -130,7 +130,7 @@ footer .social .social-icon {
 section {
   max-width: 700px;
   margin: 0 auto;
-  padding-top: 40px;    
+  padding: 40px 20px 0px 20px;  
 }
 
 /* ===HEADINGS=== */
@@ -419,6 +419,10 @@ section table th {
 @media all and (min-width: 500px) {
   .navigation-list li {
     display: inline-block;
+  }
+
+  section {
+    padding: 40px 0px 0px 0px;
   }
 }
 
