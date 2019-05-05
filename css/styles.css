@@ -281,6 +281,19 @@ section table th {
 
 /* ===CONTACT PAGE=== */
 
+#contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form input {
+  margin: 0px 0px 15px 0px;
+}
+
+.required-field {
+  padding: 15px 0px;
+}
+
 /* ===WORK PAGE=== */
 
 /* Grid fallback*/
