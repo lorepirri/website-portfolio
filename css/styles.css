@@ -279,17 +279,24 @@ section table th {
 
 /* ===CONTACT PAGE=== */
 
-#contact-form {
+#contact-form, .input-wrapper {
   display: flex;
   flex-direction: column;
-}
-
-#contact-form input {
+  max-width: 500px;
   margin: 0px 0px 15px 0px;
 }
 
 .required-field {
   padding: 15px 0px;
+}
+
+.required-field {
+  padding: 15px 0px;
+  color: red;
+}
+
+.error-message {
+  color: red;
 }
 
 /* ===WORK PAGE=== */
