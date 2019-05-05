@@ -72,6 +72,7 @@ body {
   flex-grow: 1;
   text-align: right;
   vertical-align: middle;
+  list-style: none;
 }
 
 .page-header__logo {
@@ -100,7 +101,7 @@ body {
 }
 
 .navigation-list li {
-  display: inline-block;
+  display: block;
   margin-left: 15px;
 }
 
@@ -412,6 +413,12 @@ section table th {
   .grid__item:last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
+  }
+}
+
+@media all and (min-width: 500px) {
+  .navigation-list li {
+    display: inline-block;
   }
 }
 
